@@ -18,3 +18,35 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.list{
+  list-style: none;
+  display: inline;
+  padding: 0;
+  margin-left: 15px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left:0px;
+}
+.main-info-wraper{
+ display: flex;
+ align-items: center;
+ margin-left: 15px;
+ gap:30px;
+}
+
+.item{
+  list-style: none;
+}
+.country-list-item{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.country-list{
+  margin: 0;
+}
+
+
